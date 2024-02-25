@@ -1,0 +1,115 @@
+.projectPage {
+    width: 100%;
+    height: 100vh;
+}
+
+.projectNav {
+    position: fixed;
+    background: #000;
+    width: 3%;
+    height: 100%;
+    z-index: 0;
+}
+
+.projectNavItem {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode:vertical-rl;
+    color: #fff;
+}
+.projectNavItem:hover {
+    cursor: pointer;
+}
+.projectActive {
+    background: linear-gradient(to top, #000, #0bda95, #000);
+    color: #000;
+}
+
+.projectCategory {
+    float: right;
+    width: 97%;
+    height: 100%;
+}
+.projectCatIn {
+    float: right;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.projectBox {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-align: center;
+    /* mask-image: linear-gradient(to left, #00000089, #0000003e); */
+}
+
+.projectInfo {
+    background: linear-gradient(to right, #000000 20%, #000000f5, #000000f0, #000000f0 90%, #00000096, transparent);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projectName {
+    width: 60%;
+    height: 10%;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.projectExtras {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectDates {
+    width: 50%;
+    height: 70%;
+    color: #fff;
+    font-size: 1.2em;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+.projectLinks {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+.projectLinkhref {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectLinkhref img {
+    width: 60%;
+}
+
+.projectDesc {
+    width: 60%;
+    height: 50%;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

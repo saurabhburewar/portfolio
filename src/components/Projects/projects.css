@@ -1,0 +1,152 @@
+.projectsSection {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.projectWindow1 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 50%;
+    height: 80%;
+    transform: perspective(90vw) rotateY(-20deg);
+}
+
+.projectWindow2 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    transform: perspective(90vw) rotateY(20deg);
+}
+
+.projectCard1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 47%;
+    overflow: hidden;
+}
+.projectCard2 img {
+    width: 100%;
+    height: 100%;
+}
+.projectCard1 img {
+    width: 100%;
+    height: 100%;
+}
+.projectCard2 {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 60%;
+    height: 47%;
+    overflow: hidden;
+}
+
+.projectCard3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 47%;
+}
+
+.projectCard4 {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 60%;
+    height: 47%;
+}
+.projectCard4 img {
+    width: 100%;
+    height: 100%;
+}
+.projectCard3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.projectHomeInfo {
+    background: #000000d8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+.projectHomeTitle {
+    width: 90%;
+    height: 30%;
+    font-size: 1.5em;
+    color: #fff;
+}
+.projectHomeDesc {
+    width: 90%;
+    height: 50%;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+
+.projectCard1:hover .projectHomeInfo {
+    opacity: 1;
+}
+
+.projectCard2:hover .projectHomeInfo {
+    opacity: 1;
+}
+
+.projectCard3:hover .projectHomeInfo {
+    opacity: 1;
+}
+.projectCard4:hover .projectHomeInfo {
+    opacity: 1;
+}
+
+.projectTitle {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+.projectTitle1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.projectLink {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    transition-duration: 0.5s;
+}
+.projectLink:hover {
+    color: #0bda95;
+}

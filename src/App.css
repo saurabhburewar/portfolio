@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*
+Colors 
+Text - #aaa9ad
+*/
+
+.App {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar {
+  height: 2px;
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  padding: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0bda95;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #067852;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,140 @@
+.skillsPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000000 25%, #01160f 65%, #000000);
+}
+
+.lanSection {
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    top: 75%;
+    left: 15%;
+    background: #00000094;
+}
+
+.lanHead {
+    width: 100%;
+    height: 30%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.lanList {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.lanItem {
+    width: 16.5%;
+    height: 100%;
+}
+
+.lanItemPic {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lanItemPic img {
+    width: 25%;
+}
+.lanItemName {
+    width: 100%;
+    height: 30%;
+    color: #fff;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mlSection {
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    top: 10%;
+    left: 15%;
+    background: #00000094;
+}
+.mlHead {
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mlgap {
+    width: 100%;
+    height: 10%;
+}
+.mlList {
+    width: 100%;
+    height: 70%;
+}
+.mlItem {
+    float: left;
+    width: 20%;
+    height: 50%;
+}
+.mlItemPic {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mlItemPic img {
+    width: 50%;
+}
+.mlItemName {
+    width: 100%;
+    height: 30%;
+    color: #fff;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webSection {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 10%;
+    right: 37.5%;
+    background: #00000094;
+}
+.webItem {
+    float: left;
+    width: 33%;
+    height: 50%;
+}
+
+.otherSection {
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 10%;
+    right: 15%;
+    background: #00000094;
+}
+.skilltitle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 35%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25em;
+    transform: scale(0.7, 0.9);
+    color: #09090991;
+}

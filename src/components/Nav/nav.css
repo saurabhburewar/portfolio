@@ -1,0 +1,114 @@
+.Nav {
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    height: 5%;
+    z-index: 1;
+}
+
+.myphoto {
+    position: relative;
+    float: left;
+    width: 3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+}
+.myphoto img {
+    width: 80%;
+    border-radius: 50%;
+}
+.myphoto:hover {
+    cursor: pointer;
+}
+
+.hiddenNav {
+    position: relative;
+    float: left;
+    width: 97%;
+    height: 100%;
+    z-index: 1;
+    transition-duration: 0.5s;
+    background: black;
+}
+
+.hide {
+    transform: translateX(-104%);
+}
+.show {
+    transform: translateX(0);
+}
+
+.Navbuttons {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    left: 10%;
+}
+
+.NavBut {
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    font-size: 0.8em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBut div {
+    height: 1.3em;
+    transition-duration: 0.5s;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+.NavBut div:hover {
+    border-bottom: 2px solid #0bda95;
+    cursor: pointer;
+}
+
+.NavLinks {
+    position: relative;
+    float: right;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavLinkItem {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavLinkImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavLinkImg img {
+    width: 30%;
+}
+.NavLinkImg::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    filter: blur(0.4em);
+    background: #0bda956a;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.NavLinkItem:hover .NavLinkImg::after {
+    opacity: 1;
+}
