@@ -11,13 +11,25 @@ export default function Nav() {
 
     const [ open, setOpen ] = useState(false);
 
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            const top = document.getElementById("topPage")?.getBoundingClientRect().top;
+    const handleNavClicks = () => {
+        if (matchMedia("(max-width: 560px)").matches) {
+            setOpen(!open);
+        }
+    }
 
-            top < -200 ? setOpen(true) : setOpen(false);
-        })
-    })
+    const handleNav = () => {
+        const top = document.getElementById("topPage")?.getBoundingClientRect().top;
+
+        top < -200 ? setOpen(true) : setOpen(false);
+    }
+
+    useEffect(() => {
+        if (matchMedia("(max-width: 560px)").matches) {
+            window.removeEventListener("scroll", handleNav)
+        } else {
+            window.addEventListener("scroll", handleNav)
+        }
+    }, [matchMedia("(max-width: 560px)").matches])
 
     return (
         <div className="Nav">
@@ -26,13 +38,13 @@ export default function Nav() {
             </div>
             <div className={`hiddenNav ${open ? "show" : "hide"}`}>
                 <div className="Navbuttons">
-                    <div className="NavBut">
+                    <div className="NavBut" onClick={() => {handleNavClicks()}}>
                         <Link to="/" style={{ textDecoration: 'none' }}>
                             <div>Home</div>
                         </Link>
                     </div>
                     {/* <div className="NavBut"><div>Experience</div></div> */}
-                    <div className="NavBut">
+                    <div className="NavBut" onClick={() => {handleNavClicks()}}>
                         <Link to="/projects" style={{ textDecoration: 'none' }}>
                             <div>Projects</div>
                         </Link>
