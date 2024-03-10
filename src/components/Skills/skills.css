@@ -116,6 +116,11 @@
     width: 33%;
     height: 50%;
 }
+.otherItem {
+    float: left;
+    width: 33%;
+    height: 50%;
+}
 
 .otherSection {
     position: absolute;
@@ -138,3 +143,59 @@
     transform: scale(0.7, 0.9);
     color: #09090991;
 }
+
+
+@media only screen and (max-width: 560px) {
+    .lanSection {
+        left: 5%;
+        width: 90%;
+    }
+    .lanHead {
+        font-size: 1em;
+    }
+    .lanItemPic img {
+        width: 40%;
+    }
+    .lanItemName {
+        font-size: 0.7em;
+    }
+    .otherSection {
+        width: 90%;
+        height: 15%;
+        left: 5%;
+        top: 55%;
+    }
+    .webSection {
+        width: 90%;
+        height: 15%;
+        left: 5%;
+        top: 35%;
+    }
+    .mlSection {
+        width: 90%;
+        height: 30%;
+        left: 5%;
+        top: 0;
+    }
+    .webItem {
+        width: 25%;
+        height: 100%;
+    }
+    .otherItem {
+        width: 20%;
+        height: 100%;
+    }
+    .mlHead {
+        font-size: 1em;
+    }
+    .mlItemPic img{
+        width: 35%;
+    }
+    .mlItemName {
+        font-size: 0.7em;
+    }
+    .skilltitle {
+        font-size: 15em;
+        transform: scale(0.7, 1.2);
+    }
+  }
