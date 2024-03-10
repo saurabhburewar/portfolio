@@ -12,7 +12,7 @@ export default function Nav() {
     const [ open, setOpen ] = useState(false);
 
     const handleNavClicks = () => {
-        if (matchMedia("(max-width: 560px)").matches) {
+        if (window.matchMedia("(max-width: 560px)").matches) {
             setOpen(!open);
         }
     }
@@ -24,12 +24,12 @@ export default function Nav() {
     }
 
     useEffect(() => {
-        if (matchMedia("(max-width: 560px)").matches) {
+        if (window.matchMedia("(max-width: 560px)").matches) {
             window.removeEventListener("scroll", handleNav)
         } else {
             window.addEventListener("scroll", handleNav)
         }
-    }, [matchMedia("(max-width: 560px)").matches])
+    }, [window.matchMedia("(max-width: 560px)").matches])
 
     return (
         <div className="Nav">
