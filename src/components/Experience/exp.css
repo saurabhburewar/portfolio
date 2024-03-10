@@ -68,10 +68,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .expPast {
     font-size: 1em;
-
 }
 
 .expDescbox {
@@ -109,3 +109,31 @@
     height: 0.5%;
     top: 47%;
 }
+
+@media only screen and (max-width: 560px) {
+    .expDescbox {
+        height: 65%;
+        width: 100%;
+        font-size: 0.7em;
+    }
+    .expTimelinebox {
+        width: 95%;
+        height: 35%;
+    }
+    .expDates {
+        font-size: 0.7em;
+    }
+    .expPastbox2 {
+        height: 45%; 
+    }
+    .expPastbox1 {
+        height: 45%; 
+    }
+    .expPast {
+        height: 40%; 
+        font-size: 0.6em;
+    }
+    .expDescboxin {
+        align-items: flex-start;
+    }
+  }
