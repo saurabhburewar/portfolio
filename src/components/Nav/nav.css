@@ -112,3 +112,34 @@
 .NavLinkItem:hover .NavLinkImg::after {
     opacity: 1;
 }
+
+
+@media only screen and (max-width: 560px) {
+    .myphoto {
+        width: 9%;
+        border-radius: 50%;
+    }
+    .hiddenNav {
+        position: absolute;
+        width: 100%;
+        height: 2000%;
+    }
+    .Navbuttons {
+        width: 80%;
+        height: 50%;
+        top: 25%;
+    }
+    .NavBut {
+        width: 100%;
+        height: 20%;
+    }
+    .NavLinks {
+        position: absolute;
+        width: 100%;
+        height: 15%;
+        bottom: 0;
+    }
+    .NavBut div {
+        border-bottom: 2px solid #0bda95;
+    }
+  }
