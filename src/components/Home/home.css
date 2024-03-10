@@ -116,6 +116,12 @@
     height: 10vh;
 }
 
+.homeexperience {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
 .homeprojects {
     position: relative;
     width: 100%;
@@ -158,3 +164,57 @@
     align-items: center;
     background: black;
 }
+
+
+@media only screen and (max-width: 560px) {
+    .homecontact {
+        height: 120vh;
+    }
+    .title {
+        width: 40%;
+        left: 10%;
+    }
+    .desctitle {
+        width: 45%;
+    }
+    .titleName {
+        font-size: 1.9em;
+    }
+    .titleEdu {
+        flex-direction: column;
+        height: 20%;
+    }
+    .titleEdu1 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .titleEdu2 {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .titleExp1 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .titleExp2 {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .titleIntro {
+        font-size: 0.7em;
+    }
+    .homeAbout {
+        background-size: cover;
+    }
+    .homeexperience {
+        height: 120vh;
+    }
+    .homeprojects {
+        height: 70vh;
+    }
+    .homeskills {
+        height: 120vh;
+    }
+  }
