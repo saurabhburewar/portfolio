@@ -119,31 +119,31 @@ export default function Skills() {
                 <div className="mlHead">Others</div>
                 <div className="mlgap"></div>
                 <div className="mlList">
-                    <div className="webItem">
+                    <div className="otherItem">
                         <div className="mlItemPic">
                             <img src={controlImg}></img>
                         </div>
                         <div className="mlItemName">Control-M</div>
                     </div>
-                    <div className="webItem">
+                    <div className="otherItem">
                         <div className="mlItemPic">
                             <img src={zenaImg}></img>
                         </div>
                         <div className="mlItemName">ASG-Zena</div>
                     </div>
-                    <div className="webItem">
+                    <div className="otherItem">
                         <div className="mlItemPic">
                             <img src={sketchImg}></img>
                         </div>
                         <div className="mlItemName">Sketch</div>
                     </div>
-                    <div className="webItem">
+                    <div className="otherItem">
                         <div className="mlItemPic">
                             <img src={psImg}></img>
                         </div>
                         <div className="mlItemName">Photoshop</div>
                     </div>
-                    <div className="webItem">
+                    <div className="otherItem">
                         <div className="mlItemPic">
                             <img src={aiImg}></img>
                         </div>
