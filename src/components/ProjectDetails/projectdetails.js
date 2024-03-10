@@ -22,7 +22,7 @@ export default function ProjectDetails() {
     return (
         <div className="projectPage">
             <div className="projectNav">
-                <div className="projectNavItem"></div>
+                <div className="projectNavItemgap"></div>
                 <div className={`projectNavItem ${cuurentCat=="ML" ? "projectActive" : null}`} onClick={() => {setCurrentCat("ML")}}>ML</div>
                 <div className={`projectNavItem ${cuurentCat=="Web" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Web")}}>Web</div>
                 <div className={`projectNavItem ${cuurentCat=="Othr" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Othr")}}>Others</div>
