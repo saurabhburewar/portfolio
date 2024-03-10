@@ -137,3 +137,38 @@
     background-position: top;
     transform: rotateZ(-20deg);
 }
+
+
+@media only screen and (max-width: 560px) {
+    .contactHead1 {
+        width: 80%;
+        height: 25%;
+        left: 5%;
+        font-size: 3em;
+    }
+    .contactBox1 {
+        height: 15%;
+        left: 10%;
+        top: 25%;
+        width: 60%;
+        font-size: 0.8em;
+    }
+    .contactBox2 {
+        height: 15%;
+        left: 10%;
+        width: 60%;
+        top: 45%;
+        font-size: 0.8em;
+    }
+    .contactHead2 {
+        font-size: 3.5em;
+        width: 15%;
+        top: 45%;
+    }
+    .contactBack {
+        width: 100%;
+        top: 75%;
+        left: 0%;
+        transform: rotateZ(-30deg);
+}
+  }
