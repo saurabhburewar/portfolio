@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="homegap"></div>
-            <div className="homeprojects">
+            <div className="homeexperience">
                 <Experience />
             </div>
             <div className="homegap"></div>
