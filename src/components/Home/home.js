@@ -15,7 +15,7 @@ export default function Home() {
                 <div className="bcktitle"></div>
                 <div className="bckmask"></div>
                 <div className="desctitle">
-                    <div className="titleIntro">I completed my B.Tech from IIT Jodhpur with a CS major and an AI minor. I am an Engineer who has worked on various stages of data pipeline including ETL, network analysis, ML. I am currently working at Deloitte USI as a Big Data Developer for HCSC. I am also interested in product management, have received PM training and interned as a product manager.</div>
+                    <div className="titleIntro">I completed my B.Tech from IIT Jodhpur with a CS major and an AI minor. <br />I am an Engineer who has worked on various stages of Data pipeline including ETL, Network Analysis, ML. I am currently working at Deloitte USI as a Data Engineer for HCSC. <br />I am also interested in product management, have received PM training and interned as a product manager.</div>
                 </div>
                 <div className="title">
                     <div className="titleName">Saurabh <br /> Burewar</div>
@@ -54,3 +54,4 @@ export default function Home() {
         </div>
     )
 }
+
