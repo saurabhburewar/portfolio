@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     font-size: 5.1em;
-    background: linear-gradient(to right, #050505, #01160f, #050505);
+    background: linear-gradient(to right, #050505, #1f4032, #050505);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -38,7 +38,7 @@
     font-size: 5.1em;
     color: #09090991;
     writing-mode: vertical-rl;
-    background: linear-gradient(to top, #050505, #01160f, #050505);
+    background: linear-gradient(to top, #050505, #1f4032, #050505);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -172,3 +172,4 @@
         transform: rotateZ(-30deg);
 }
   }
+
