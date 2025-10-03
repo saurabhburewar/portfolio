@@ -95,8 +95,8 @@
 
 .expActive {
     position: absolute;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
     background: #0bda95;
     filter: blur(3em);
@@ -137,3 +137,4 @@
         align-items: flex-start;
     }
   }
+
