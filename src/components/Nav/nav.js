@@ -23,13 +23,13 @@ export default function Nav() {
         top < -200 ? setOpen(true) : setOpen(false);
     }
 
-    useEffect(() => {
-        if (window.matchMedia("(max-width: 560px)").matches) {
-            window.removeEventListener("scroll", handleNav)
-        } else {
-            window.addEventListener("scroll", handleNav)
-        }
-    }, [window.matchMedia("(max-width: 560px)").matches])
+    // useEffect(() => {
+    //     if (window.matchMedia("(max-width: 560px)").matches) {
+    //         window.removeEventListener("scroll", handleNav)
+    //     } else {
+    //         window.addEventListener("scroll", handleNav)
+    //     }
+    // }, [window.matchMedia("(max-width: 560px)").matches])
 
     return (
         <div className="Nav">
@@ -82,3 +82,4 @@ export default function Nav() {
         </div>
     )
 }
+
