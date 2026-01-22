@@ -1,9 +1,9 @@
 {
   "Favourites": [
     {
-      "Title": "Mapping RGB face video data to core body temperature",
+      "Title": "Mapping RGB face video data to core body temperature (RAKSHAK)",
       "Date": "DEC 2020 - JUN 2021",
-      "Description": "Experimented with various Convolutional neural network approaches to predict core body temperature from the NIR and RGB face image data. Also, used various approches with CNNs to generate a suitable and acceptable NIR image from RGB image for further use in temperature prediction.",
+      "Description": "Preprocessed and augmented image datasets (resizing, flipping, brightness adjustment) to improve model robustness. Developed CNN Re-colorization approach for RGB-to-NIR image conversion, evaluated with MSE & human assessment.Applied postprocessing (joint bilateral filter, contrast/saturation adjustment) to reduce noise and enhance visibility. Built a CNN-based approach to predict temperature from images, achieving 52% accuracy.",
       "Pic": "images/projects/rgbtonir.PNG",
       "Gif": "images/projects/gifs/rgb.gif",
       "Link": "https://github.com/saurabhburewar/ML_Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK"
@@ -11,7 +11,7 @@
     {
       "Title": "Hashtag Analysis",
       "Date": "AUG 2021 - NOV 2021",
-      "Description": "Pulling Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyse networks to understand the spread of topics and movements in a social network and learn about patterns that make a movement successful.",
+      "Description": "Collected Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyzed the network graphs to model information spread and analyzed structural metrics (density, assortativity, centrality) to derive insights on campaign reach and social behavior.",
       "Pic": "images/projects/hashtag.png",
       "Gif": "images/projects/gifs/hashtag.gif",
       "Link": "https://saurabhburewar.github.io/Data-and-Networks_Hashtag-analysis/"
@@ -35,16 +35,16 @@
   ],
   "Ml": [
     {
-      "Title": "Mapping RGB face video data to core body temperature",
+      "Title": "Mapping RGB face video data to core body temperature (RAKSHAK)",
       "Date": "DEC 2020 - JUN 2021",
-      "Description": "Experimented with various Convolutional neural network approaches to predict core body temperature from the NIR and RGB face image data. Also, used various approches with CNNs to generate a suitable and acceptable NIR image from RGB image for further use in temperature prediction.",
+      "Description": "Preprocessed and augmented image datasets (resizing, flipping, brightness adjustment) to improve model robustness. Developed CNN Re-colorization approach for RGB-to-NIR image conversion, evaluated with MSE & human assessment.Applied postprocessing (joint bilateral filter, contrast/saturation adjustment) to reduce noise and enhance visibility. Built a CNN-based approach to predict temperature from images, achieving 52% accuracy.",
       "Pic": "images/projects/rgbtonir.PNG",
       "Link": "https://github.com/saurabhburewar/ML_Mapping-RGB-face-video-data-to-core-body-temperature-at-runtime-RAKSHAK"
     },
     {
       "Title": "English to Hindi Language translation",
       "Date": "JAN 2022 - MAY 2022",
-      "Description": "Explored and Experimented with various Transformer-based and Recurrent Neural Network models and referenced multiple researches of state-of-the-art Machine Translation models to build a model that can perform machine translation from English to Hindi Language.",
+      "Description": "Preprocessed text data with tokenization, integer encoding, padding, and batching to create a transformer-ready dataset. Explored and Experimented with various Transformer-based and Recurrent Neural Network models and referenced multiple researches of state-of-the-art Machine Translation models to build a model that can perform machine translation from English to Hindi Language at token-level while also achieving nearly 50% sentence-level accuracy.",
       "Pic": "images/projects/engtohindi.JPG",
       "Link": "https://github.com/saurabhburewar/ML_English-to-Hindi-Language-translation"
     },
@@ -58,7 +58,7 @@
     {
       "Title": "Hashtag Analysis",
       "Date": "AUG 2021 - NOV 2021",
-      "Description": "Pulling Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyse networks to understand the spread of topics and movements in a social network and learn about patterns that make a movement successful.",
+      "Description": "Collected Tweet data using Twitter API and Web-scraping posts from Koo (twitter-like social media) to create networks around popular social topics. Analyzed the network graphs to model information spread and analyzed structural metrics (density, assortativity, centrality) to derive insights on campaign reach and social behavior.",
       "Pic": "images/projects/hashtag.png",
       "Link": "https://saurabhburewar.github.io/Data-and-Networks_Hashtag-analysis/"
     },
@@ -138,3 +138,4 @@
     }
   ]
 }
+
