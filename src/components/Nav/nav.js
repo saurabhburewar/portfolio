@@ -17,11 +17,11 @@ export default function Nav() {
         }
     }
 
-    const handleNav = () => {
-        const top = document.getElementById("topPage")?.getBoundingClientRect().top;
+    // const handleNav = () => {
+    //     const top = document.getElementById("topPage")?.getBoundingClientRect().top;
 
-        top < -200 ? setOpen(true) : setOpen(false);
-    }
+    //     top < -200 ? setOpen(true) : setOpen(false);
+    // }
 
     useEffect(() => {
         if (window.matchMedia("(max-width: 560px)").matches) {
@@ -82,5 +82,6 @@ export default function Nav() {
         </div>
     )
 }
+
 
 
