@@ -36,7 +36,7 @@ export default function Nav() {
     return (
         <div className="Nav">
             <div className="myphoto" onClick={() => {setOpen(!open)}}>
-                <img src={profileimg}></img>
+                <img src={profileimg} alt="Nav"></img>
             </div>
             <div className={`hiddenNav ${open ? "show" : "hide"}`}>
                 <div className="Navbuttons">
@@ -84,6 +84,7 @@ export default function Nav() {
         </div>
     )
 }
+
 
 
 
