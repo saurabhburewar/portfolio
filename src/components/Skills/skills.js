@@ -35,19 +35,19 @@ export default function Skills() {
                 <div className="mlList">
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={tfImg}></img>
+                            <img src={tfImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">TensorFlow</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={ptImg}></img>
+                            <img src={ptImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">PyTorch</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={scikitImg}></img>
+                            <img src={scikitImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Scikit</div>
                     </div>
@@ -55,31 +55,31 @@ export default function Skills() {
                     <div className="mlItem"></div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={hadoopImg}></img>
+                            <img src={hadoopImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Hadoop</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={hiveImg}></img>
+                            <img src={hiveImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Hive</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={sparkImg}></img>
+                            <img src={sparkImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Spark</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={sqoopImg}></img>
+                            <img src={sqoopImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Sqoop</div>
                     </div>
                     <div className="mlItem">
                         <div className="mlItemPic">
-                            <img src={phoenixImg}></img>
+                            <img src={phoenixImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Phoenix</div>
                     </div>
@@ -91,25 +91,25 @@ export default function Skills() {
                 <div className="mlList">
                     <div className="webItem">
                         <div className="mlItemPic">
-                            <img src={htmlImg}></img>
+                            <img src={htmlImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">HTML</div>
                     </div>
                     <div className="webItem">
                         <div className="mlItemPic">
-                            <img src={cssImg}></img>
+                            <img src={cssImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">CSS</div>
                     </div>
                     <div className="webItem">
                         <div className="mlItemPic">
-                            <img src={reactImg}></img>
+                            <img src={reactImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">React</div>
                     </div>
                     <div className="webItem">
                         <div className="mlItemPic">
-                            <img src={nodeImg}></img>
+                            <img src={nodeImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Nodejs</div>
                     </div>
@@ -121,31 +121,31 @@ export default function Skills() {
                 <div className="mlList">
                     <div className="otherItem">
                         <div className="mlItemPic">
-                            <img src={controlImg}></img>
+                            <img src={controlImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Control-M</div>
                     </div>
                     <div className="otherItem">
                         <div className="mlItemPic">
-                            <img src={zenaImg}></img>
+                            <img src={zenaImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">ASG-Zena</div>
                     </div>
                     <div className="otherItem">
                         <div className="mlItemPic">
-                            <img src={sketchImg}></img>
+                            <img src={sketchImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Sketch</div>
                     </div>
                     <div className="otherItem">
                         <div className="mlItemPic">
-                            <img src={psImg}></img>
+                            <img src={psImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Photoshop</div>
                     </div>
                     <div className="otherItem">
                         <div className="mlItemPic">
-                            <img src={aiImg}></img>
+                            <img src={aiImg} alt="skill"></img>
                         </div>
                         <div className="mlItemName">Illustrator</div>
                     </div>
@@ -156,37 +156,37 @@ export default function Skills() {
                 <div className="lanList">
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={pythonImg}></img>
+                            <img src={pythonImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">Python</div>
                     </div>
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={cImg}></img>
+                            <img src={cImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">C</div>
                     </div>
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={cppImg}></img>
+                            <img src={cppImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">C++</div>
                     </div>
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={jsImg}></img>
+                            <img src={jsImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">JavaScript</div>
                     </div>
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={javaImg}></img>
+                            <img src={javaImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">Java</div>
                     </div>
                     <div className="lanItem">
                         <div className="lanItemPic">
-                            <img src={scalaImg}></img>
+                            <img src={scalaImg} alt="skill"></img>
                         </div>
                         <div className="lanItemName">Scala</div>
                     </div>
@@ -195,3 +195,4 @@ export default function Skills() {
         </div>
     )
 }
+
