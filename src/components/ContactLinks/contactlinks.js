@@ -8,30 +8,31 @@ import instaimg from '../../static/contact/insta-01.svg';
 export default function ContactLinks() {
     return (
         <div className="contactList">
-            <a href='mailto:saurabh.skbr@gmail.com' target="_blank" className="contactItem">
+            <a href='mailto:saurabh.skbr@gmail.com' target="_blank" rel="noopener noreferrer" className="contactItem">
                 <div className="contactImg">
-                    <img src={mailimg}></img>
+                    <img src={mailimg} alt="Mail"></img>
                 </div>
                 <div className="contactText mLabel"><p>Email</p> &nbsp; here</div>
             </a>
-            <a href='https://www.linkedin.com/in/saurabh-burewar-355131185/' target="_blank" className="contactItem">
+            <a href='https://www.linkedin.com/in/saurabh-burewar-355131185/' target="_blank" rel="noopener noreferrer" className="contactItem">
                 <div className="contactImg">
-                    <img src={linkedinimg}></img>
+                    <img src={linkedinimg} alt="LinkedIn"></img>
                 </div>
                 <div className="contactText lnLabel">Or connect on &nbsp; <p>LinkedIn</p></div>
             </a>
-            <a href='https://github.com/saurabhburewar' target="_blank" className="contactItem">
+            <a href='https://github.com/saurabhburewar' target="_blank" rel="noopener noreferrer" className="contactItem">
                 <div className="contactImg">
-                    <img src={githubimg}></img>
+                    <img src={githubimg} alt="Github"></img>
                 </div>
                 <div className="contactText ghLabel">See more projects on &nbsp; <p>Github</p></div>
             </a>
-            <a href='https://www.instagram.com/qwerty_pencils/' target="_blank" className="contactItem">
+            <a href='https://www.instagram.com/qwerty_pencils/' target="_blank" rel="noopener noreferrer" className="contactItem">
                 <div className="contactImg">
-                    <img src={instaimg}></img>
+                    <img src={instaimg} alt="Instagram"></img>
                 </div>
                 <div className="contactText iLabel">And more of my &nbsp; <p>hobbies</p> &nbsp; here!</div>
             </a>
         </div>
     )
+
 }
