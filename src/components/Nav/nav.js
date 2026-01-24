@@ -23,13 +23,15 @@ export default function Nav() {
     //     top < -200 ? setOpen(true) : setOpen(false);
     // }
 
+    const topGap = window.matchMedia("(max-width: 560px)").matches
+
     useEffect(() => {
-        if (window.matchMedia("(max-width: 560px)").matches) {
+        if (topGap) {
             setOpen(false)
         } else {
             setOpen(true)
         }
-    }, [window.matchMedia("(max-width: 560px)").matches])
+    }, [topGap])
 
     return (
         <div className="Nav">
@@ -82,6 +84,7 @@ export default function Nav() {
         </div>
     )
 }
+
 
 
 
