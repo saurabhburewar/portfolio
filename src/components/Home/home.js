@@ -1,7 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import "./home.css";
-import ContactForm from '../Contactform/contactform';
-import ContactLinks from "../ContactLinks/contactlinks";
 import Skills from "../Skills/skills";
 import Projects from "../Projects/projects";
 import Experience from "../Experience/exp";
@@ -54,4 +52,5 @@ export default function Home() {
         </div>
     )
 }
+
 
