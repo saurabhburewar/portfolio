@@ -10,11 +10,11 @@ export default function ProjectDetails() {
     const [cuurentCat, setCurrentCat] = useState("ML");
 
     const RenderProjects = () => {
-        if (cuurentCat == "ML") {
+        if (cuurentCat === "ML") {
             return <MLProjects />
-        } else if (cuurentCat=="Web") {
+        } else if (cuurentCat==="Web") {
             return <WebProjects />
-        } else if (cuurentCat=="Othr") {
+        } else if (cuurentCat==="Othr") {
             return <OthrProjects />
         }
     }
@@ -23,9 +23,9 @@ export default function ProjectDetails() {
         <div className="projectPage">
             <div className="projectNav">
                 <div className="projectNavItemgap"></div>
-                <div className={`projectNavItem ${cuurentCat=="ML" ? "projectActive" : null}`} onClick={() => {setCurrentCat("ML")}}>ML</div>
-                <div className={`projectNavItem ${cuurentCat=="Web" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Web")}}>Web</div>
-                <div className={`projectNavItem ${cuurentCat=="Othr" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Othr")}}>Others</div>
+                <div className={`projectNavItem ${cuurentCat==="ML" ? "projectActive" : null}`} onClick={() => {setCurrentCat("ML")}}>ML</div>
+                <div className={`projectNavItem ${cuurentCat==="Web" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Web")}}>Web</div>
+                <div className={`projectNavItem ${cuurentCat==="Othr" ? "projectActive" : null}`} onClick={() => {setCurrentCat("Othr")}}>Others</div>
             </div>
             <div className="projectCategory">
                 <RenderProjects />
@@ -39,3 +39,4 @@ export default function ProjectDetails() {
         </div>
     )
 }
+
