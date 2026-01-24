@@ -17,7 +17,7 @@ export default function MLProjects() {
                             <div className="projectDates">{mlObj.Date}</div>
                             <div className="projectLinks">
                                 <a href={mlObj.Link} className="projectLinkhref">
-                                    <img src={linkimg}></img>
+                                    <img src={linkimg} alt="link"></img>
                                 </a>
                             </div>
                         </div>
@@ -27,4 +27,5 @@ export default function MLProjects() {
             ))}
         </div>
     )
+
 }
