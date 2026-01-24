@@ -18,7 +18,7 @@ export default function WebProjects() {
                             <div className="projectDates">{webObj.Date}</div>
                             <div className="projectLinks">
                                 <a href={webObj.Link} className="projectLinkhref">
-                                    <img src={linkimg}></img>
+                                    <img src={linkimg} alt="link"></img>
                                 </a>
                             </div>
                          </div>
@@ -28,4 +28,5 @@ export default function WebProjects() {
             ))}
         </div>
     )
+
 }
